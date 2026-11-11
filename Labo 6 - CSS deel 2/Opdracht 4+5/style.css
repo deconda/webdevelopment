@@ -1,0 +1,32 @@
+body {
+    font-family: verdana, serif;
+    font-size: 1.1em;
+    color: darkblue;
+    background-color: silver;
+}
+h1 {
+    font-variant: small-caps;
+    background-color: #EE4B2B;
+}
+
+
+a:hover {
+    border: 8px #EE4B2B;
+    padding: 3px 3px;
+    border-radius: 4px;
+    background-color: #ebfbee;
+    color: #EE4B2B;
+}
+
+.stippeltjesrand {
+    border: 1px dotted;
+}
+
+a.icoon {
+    display: inline-block;
+    background-image: url('icoon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px;
+    padding-left: 16px;
+}
